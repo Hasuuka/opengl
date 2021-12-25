@@ -14,10 +14,12 @@ CONFIG += c++11
 
 SOURCES += \
     RectangleWindow.cpp \
-    main.cpp
+    main.cpp \
+    testdialog.cpp
 
 HEADERS += \
-    RectangleWindow.h
+    RectangleWindow.h \
+    testdialog.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
